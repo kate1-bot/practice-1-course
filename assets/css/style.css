@@ -1,0 +1,582 @@
+*  {
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #232323;
+    color: #ffffff;
+}
+
+li {
+    font-size: 24px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+ max-width: 1440px;
+ margin: 0 auto;
+}
+
+/*- header*/
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0.5px 0px;
+}
+
+.header {
+    padding: 5px 0px 0px;   
+}
+
+.natac {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.header_nav a {
+    font-size: 16px ;
+}
+
+.header_list {
+    display: flex;
+    gap: 10px;
+}
+
+.prov {
+        font-family: "Viaoda Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+/*- header*/
+
+/*- main*/
+.section {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+.zagolovok {
+    text-align: center;
+    width: 600px;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 110px;
+}
+
+.podzagolovok {
+    text-align: center;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+    color: #CE2C2E;
+}
+
+.text {
+    align-items: center;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+
+/*- welcome*/
+.welcome {
+    margin-top: 10px;
+    padding: 390px 80px;
+    background-image: url(https://i.ibb.co/FkvhBH1q/IMG-20250518-224740-340.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    justify-items: center;
+}
+
+.btn {
+    position: relative;
+    top: 190px;
+    left: 540px;
+    padding: 12px 24px;
+    background-color: #4b4b4b ;
+    color: white;
+    border-radius: 26px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+/*- welcome*/
+
+/*- welcome нижняя часть*/
+.box_niz {
+    text-align: center;    
+}
+
+.welcom_niz {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcom_niz .text {
+    width: 290px;
+    align-items: center;
+}
+/*- welcome нижняя часть*/
+
+/*- о нас*/
+.o_nas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o_nas .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.box_onas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px; 
+}
+  
+.box_onas_1 {
+    align-self: flex-start; 
+    width: 57%; 
+    margin-bottom: 20px; 
+}
+  
+.box_onas_2 {
+    align-self: flex-end; 
+    width: 57%; 
+}
+/*- о нас*/
+/*- о нас низ*/
+.o_nasniz {
+    margin-top: 70px;
+    position: relative;
+    background-image: url(https://i.ibb.co/xSv6zdNQ/IMG-20250518-224733-868.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box_o_nasniz {
+    position: relative;
+    max-width: 1500px;
+    padding: 20px;
+    z-index: 1;
+    line-height: 1.6;
+    left: 100px;
+}
+
+.o_nasniz .text {
+    margin: 5;
+    align-self: flex-start; 
+    width: 57%; 
+}
+/*- main*/
+/*- снято в студии*/
+.snyato .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.snyato {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.snyato .img {
+    margin-top: 50px;
+}
+/*- снято в студии*/
+
+/*- мероприятия*/
+.meropriat {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.meropriat .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+
+.box_meropriat {
+    margin-left: 100px;
+    text-align: center;
+    width: 1100px;
+}
+
+.meropriat .text {
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+/*- мероприятия*/ 
+
+/*- студии*/ 
+.studios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studios .zagolovok {
+    text-align: center; 
+    margin-bottom: 38px;
+    width: 1300px;
+}
+
+.studios .text {
+    align-items: center;
+    margin-top: 60px;
+    width: 1350px;
+}
+/*- студии*/ 
+
+/*- галерея работ*/ 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .zagolovok {
+    text-align: center; 
+    margin-top: 28px;
+    margin-bottom: 1px;
+    width: 1300px;
+}
+
+.gallery .text {
+    align-items: center;
+    margin-top: 60px;
+    width: 1114px;
+    margin-top: 30px;
+    margin-bottom: 78px;
+}
+/*- галерея работ*/ 
+
+/*- О нас*/ 
+
+.onas {
+    margin-top: 70px;
+    position: relative;
+    background-image: url(https://i.ibb.co/DfBRkknN/IMG-20250518-224733-495.png);
+    background-size: cover;
+    background-position: center;
+
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onas .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: -120px;
+    width: 1300px;
+}
+
+.onas .text {
+    margin-bottom: 30px;
+} 
+
+/*- О нас*/ 
+
+/*- фотографы*/ 
+
+.photographers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    margin-top: 30px;
+}
+
+.photo2 {
+    margin-bottom: 40px;
+}
+
+/*- фотографы*/ 
+
+/*- контакты*/ 
+.contact {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+
+.contact .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.contact .podzagolovok {
+    font-size: 30px;
+}
+
+.contact .text {
+    color: #ffffffa9;
+}
+
+.minizagolovok {
+    text-align: center;
+    width: 60px;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+
+.box_con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+  
+.contact_info {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 70px;
+}
+  
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+    border-radius: 30px;
+    width: 450px;
+    height: 25px;
+    margin: 10px;
+}
+  
+.contact-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+  
+.contact-form button {
+    padding: 12px;
+    background-color: #CE2C2E;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 150px;
+}
+/*- контакты*/ 
+
+/*- мероприятия*/ 
+.event {
+    max-width: 1200px;
+    margin: auto;
+}
+.event .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1200px;
+}
+
+.event .podzagolovok {
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.box_event {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_event .text {
+    margin-top: 57px;
+    font-size: 30px;
+    width: 870px;
+    height: 150px;
+}
+
+/*- мероприятия*/ 
+/*- наши услуги*/ 
+.yslygi {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.yslygi .zagolovok {
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 1200px;
+}
+
+.box_yslygi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.box_yslygi_2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    flex-direction: row-reverse; 
+}
+
+.yslygi .podzagolovok {
+    font-size: 80px;
+    text-align: start;
+}
+
+.cena {
+    text-align: start;
+    width: 600px;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.box_yslygi img {
+    height: 350px;
+    width: 300px;
+}
+
+.text_yslygi {
+    padding: 25px;
+}
+
+.text_yslygi_2 {
+    padding: 25px;
+    text-align: end;
+}
+
+.box_yslygi_2 img {
+    height: 350px;
+    width: 300px;
+}
+
+.podzagolovok_2 {
+    text-align: end;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: #CE2C2E;
+    width: 750px;
+}
+
+.cena_2 {
+    text-align: end;
+    width: 700px;
+    margin: 0px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60px;
+}
+
+/* подвал */
+.footer {
+    margin-top: 30px;
+    background-color: #000000;
+    padding: 20px;
+    border-top: 1px solid #aaa;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.footer-left p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+  
+.footer-right {
+    text-align: right;
+}
+  
+.footer-right p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+  
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* подвал */
